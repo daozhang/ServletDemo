@@ -27,7 +27,7 @@ public class DBConnectionUtil {
 
         Connection conn = null;
         // DB连接URL
-        String url = "jdbc:mysql://localhost:3306/myDemo";
+        String url = "jdbc:mysql://localhost:3306/MyDemo";
         // 用户名
         String username = "root";
         // 密码

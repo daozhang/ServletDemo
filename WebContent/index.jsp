@@ -13,7 +13,7 @@
 	href="<%=request.getContextPath() %>/demo/resources/css/invalid.css"
 	type="text/css" media="screen" />
 <script type="text/javascript"
-	src="<%=request.getContextPath() %>/demo/resources/script/jquery-1.3.2.min.js"></script>
+	src="<%=request.getContextPath() %>/demo/js/jquery-1.4.1.min.js"></script>
 </head>
 <body id="login">
 	<div id="login-wrapper" class="png_bg">
