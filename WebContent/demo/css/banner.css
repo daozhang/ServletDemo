@@ -1,0 +1,83 @@
+#OSC_Banner {
+    background-color: #F5F5F5;
+    border-bottom: 1px solid #EEEEEE;
+    height: auto;
+    margin: 0 0 20px;
+    min-width: 998px;
+    padding: 15px 0;
+}
+#OSC_Banner .Logo {
+    background: url("/img/logo_s2.png") no-repeat scroll -2px 0 transparent;
+    border-right: 2px solid #EEEEEE;
+    float: left;
+    height: 48px;
+    padding-right: 4px;
+    text-indent: -9999px;
+    width: 160px;
+}
+#OSC_Banner h1 {
+    color: #40AA53;
+    float: left;
+    font-size: 20pt;
+    font-weight: normal;
+    height: 40px;
+    line-height: 40px;
+    margin: 3px 0 0 12px;
+}
+#OSC_Banner h1 a {
+    color: #40AA53;
+    text-decoration: none;
+}
+#OSC_Banner dl {
+    color: #666666;
+    float: left;
+    margin: 8px 0 0 20px;
+}
+#OSC_Banner dl dt {
+    line-height: 16px;
+    text-align: left;
+}
+#OSC_Banner dl dt em {
+    color: #AA0000;
+    font-style: normal;
+    font-weight: bold;
+}
+#OSC_Banner dl a {
+    text-decoration: none;
+}
+#OSC_Banner .search {
+    float: right;
+    margin: 8px 0 0;
+    overflow: hidden;
+}
+#OSC_Banner .search .TXT {
+    border: 1px solid #40AA53;
+    border-radius: 0 0 0 0;
+    float: left;
+    font-size: 10.5pt;
+    height: 30px;
+    padding: 0 10px;
+    width: 228px;
+}
+#OSC_Banner .search .BTN {
+    background: none repeat scroll 0 0 #40AA53;
+    border: 0 none;
+    color: #FFFFFF;
+    cursor: pointer;
+    float: left;
+    font-size: 10.5pt;
+    height: 32px;
+    padding: 0 10px;
+}
+#OSC_Banner .search .BTN:hover {
+    background-color: #35A266;
+}
+#OSC_Footer {
+    border-top: 2px solid #CCCCCC;
+    color: #737573;
+    height: 38px;
+    line-height: 38px;
+    margin-top: 20px;
+    padding-bottom: 50px;
+    text-align: center;
+}

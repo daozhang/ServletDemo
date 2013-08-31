@@ -1,0 +1,24 @@
+.gridtable {
+    font-family: verdana,arial,sans-serif;
+    font-size:11px;
+    color:#333333;
+    border-width: 1px;
+    border-color: #666666;
+    border-collapse: collapse;
+}
+.pageTitle {
+    width: 100%;
+    color: blue;
+}
+
+.td_middle_class {
+    text-align:center;
+}
+
+.td_right_class {
+    text-align:right;
+}
+
+.td_left_class {
+    text-align:left;
+}

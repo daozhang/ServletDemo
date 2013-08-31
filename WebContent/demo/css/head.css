@@ -1,0 +1,93 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+#pg_top {
+    background-color: #15A230;
+    font-size: 10pt;
+    height: 30px;
+    line-height: 30px;
+    min-width: 998px;
+}
+
+#pg_top a {
+    color: #FFFFFF;
+    text-decoration: none;
+}
+
+#pg_top .cs_content a {
+    color: #008800;
+}
+
+#pg_top a:hover {
+    color: #EEEEEE;
+}
+
+#pg_top #pg_channels {
+    float: left;
+}
+
+#pg_top #pg_channels ul {
+    line-height: 18px;
+    list-style-type: none;
+}
+
+#pg_top #pg_channels ul li.item {
+    float: left;
+    line-height: 30px;
+    margin: 0 16px 0 0;
+}
+
+#pg_top #pg_channels ul li a.hl {
+    font-weight: bold;
+}
+
+#pg_top #OSC_Userbar {
+    color: #DDDDDD;
+    float: right;
+}
+#pg_top .control_select ul.cs_content li a:hover {
+    background: none repeat scroll 0 0 #FFFFFF;
+    color: #AA0000;
+    font-weight: bold;
+}
+.wd998 {
+    margin: 0 auto;
+    width: 998px;
+}
+.control_select {
+    background: url("/ServletDemo/demo/images/down3.gif") no-repeat scroll right 14px transparent;
+    cursor: pointer;
+    display: inline-block;
+    height: 25px;
+    padding-right: 8px;
+    position: relative;
+    z-index: 1001;
+}
+.control_select a {
+    position: relative;
+}
+.control_select ul.cs_content {
+    background: none repeat scroll 0 0 white;
+    border: 1px solid #15A230;
+    display: none;
+    font-size: 9pt;
+    left: 0;
+    list-style-type: none;
+    padding: 5px 0 2px 5px;
+    position: absolute;
+    text-align: left;
+    top: 25px;
+    width: 110px;
+    z-index: 9999;
+}
+.control_select ul.cs_content li {
+    border: 0 none;
+    height: 16px;
+    line-height: 16px;
+    margin-bottom: 8px;
+}
+#pg_top #pg_channels ul li a.hl {
+    font-weight: bold;
+}
