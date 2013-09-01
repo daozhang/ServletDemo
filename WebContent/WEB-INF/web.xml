@@ -89,6 +89,15 @@
   </servlet-mapping>
   
   <servlet>
+    <servlet-name>addContacts</servlet-name>
+    <servlet-class>com.boyue.contacts.servlet.ContactsAddServlet</servlet-class>
+  </servlet>
+  <servlet-mapping>
+    <servlet-name>addContacts</servlet-name>
+    <url-pattern>/servlet/addContacts</url-pattern>
+  </servlet-mapping>
+  
+  <servlet>
     <servlet-name>addSort</servlet-name>
     <servlet-class></servlet-class>
   </servlet>
